@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="text-gray-600 body-font fixed top-0 left-0 right-0 bg-black">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          href="#first"
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer"
+        >
+          <img class="h-12 rounded-full" src="./logo.PNG" />
+          <span class="ml-3 text-xl">Neeraj</span>
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a
+            href="#first"
+            class="mr-5 hover:text-red-500 cursor-pointer hover:underline text-white"
+            >Home</a
+          >
+          <a
+            href="#second"
+            class="mr-5 hover:text-red-500 cursor-pointer hover:underline text-white"
+            >About</a
+          >
+          <a
+            href="#third"
+            class="mr-5 hover:text-red-500 cursor-pointer hover:underline text-white"
+            >Services</a
+          >
+          <a
+            href="#fourth"
+            class="mr-5 hover:text-red-500 cursor-pointer hover:underline text-white"
+            >Contact</a
+          >
+        </nav>
+        <a href="./Neeraj_bhatia_Resume_.pdf" do>
+          <button
+            class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 text-black focus:outline-none hover:bg-red-400 rounded text-base mt-4 md:mt-0"
+          >
+            Download Resume
+          </button>
+        </a>
+      </div>
+    </header>
+    <section id="first" class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h3
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black"
+          >
+            Hi, I'm <span class="text-red-500">Neeraj</span> <br />
+            Bhatia From India
+          </h3>
+          <p class="mb-8 leading-relaxed">
+            Thing that aspire me the most is the feeling of Success and
+            accomplishment .It helps to do my Job more Efficiently and keeps me
+            in loop with the Technology used for Upskilling.
+          </p>
+          <section>
+            <h1 class="text-5xl text-black">
+              Love To
+              <span
+                class="txt-rotate text-red-500"
+                data-period="2000"
+                data-rotate='[ "Travel", "simple.", "pure JS.", "Make something interesting :)", "fun!" ]'
+              ></span>
+            </h1>
+          </section>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://source.unsplash.com/720x600/?office,developer,motivation,coding"
+          />
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="second" class="text-gray-600 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <p class="text-5xl mb-6 font-bold text-center text-red-500">About</p>
+        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+          <img
+            alt="ecommerce"
+            class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+            src="./image.jpg"
+          />
+          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <h2 class="text-sm title-font text-gray-500 tracking-widest">
+              PUBLICIS SAPIENT
+            </h2>
+
+            <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">
+              Junior Associate Technology
+            </h1>
+            <h2 class="text-sm title-font text-gray-500 tracking-widest">
+              JAN 2022 - PRESENT
+            </h2>
+            <p class="leading-relaxed mt-6">
+              At Publicis Sapient, I am a Front-End UI Developer, writing
+              high-quality code with niche in ReactJS and to develop RESTful
+              APIs making the websites more accessible, responsive and user
+              friendly. As an Experience Technologist, I am working as part of
+              an agile team where my primary responsibilities include developing
+              interactive web based, mobile, and/or desktop applications using
+              Sapient as well as industry best practices to deliver high value
+              and quality to Sapient clients.
+            </p>
+            <p class="leading-relaxed mt-6">
+              I have a keen Interest in programming and i like to keep
+              developing stuff for fun. I create clean, professional and
+              functional websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="third" class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <p class="text-5xl mb-6 font-bold text-center text-red-500">Services</p>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg text-center"
+            >
+              <p
+                class="tracking-widest text-5xl title-font font-medium text-black mb-1"
+              >
+                <i class="fa-solid fa-code-fork fa-spin"></i>
+              </p>
+              <h1
+                class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-9"
+              >
+                Web Design
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center"
+            >
+              <h2
+                class="tracking-widest title-font font-medium text-black text-5xl mb-1"
+              >
+                <i class="fa-solid fa-laptop-code fa-spin"></i>
+              </h2>
+              <h1
+                class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-9"
+              >
+                UI/UX Designer
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center"
+            >
+              <h2
+                class="tracking-widest text-5xl title-font font-medium text-black mb-1"
+              >
+                <i class="fa-solid fa-cog fa-spin"></i>
+              </h2>
+              <h1
+                class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-9"
+              >
+                Settings
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="fourth" class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+          <p class="text-5xl mb-6 font-bold text-red-500">Contact</p>
+          <p class="leading-relaxed text-lg">
+            An organized and reliable problem-solver with a keen interest in
+            Development, the ability to find reliable
+            technical solutions and use logical skills to work against
+            challenging problems of our society, someone who wants to learn and
+            help learn at each step.
+          </p>
+          <h2
+                class="tracking-widest title-font  text-black text-2xl mt-6"
+              >
+                <i class="fa-solid fa-envelope fa-beat-fade"></i>
+                <span class="tracking-widest title-font font-medium text-black text-xl">bhatiaji1357@gmail.com</span> 
+              </h2>
+
+              <h2
+              class="tracking-widest title-font  text-black text-2xl mt-6"
+            >
+            <i class="fa-solid fa-phone fa-shake"></i>
+              <span class="tracking-widest title-font font-medium text-black text-xl">+91 9034025912</span> 
+            </h2>
+          <span
+            class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"
+          ></span>
+          <h2
+            class="text-gray-900 font-medium title-font tracking-wider text-sm"
+          >
+            NEERAJ BHATIA
+          </h2>
+          <p class="text-gray-500">Software Developer</p>
+        </div>
+      </div>
+    </section>
+    <footer class="text-gray-600 body-font">
+      <div class="bg-gray-100">
+        <div
+          class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col"
+        >
+          <a href="#first"
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 cursor-pointer"
+          >
+            <img class="h-12 rounded-full" src="./logo.PNG" />
+            <span class="ml-3 text-xl">Neeraj</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            © 2022 —
+            <a
+              href="https://github.com/Neerajbhatia007"
+              class="text-gray-600 ml-1"
+              target="_blank"
+              >@Neerajbhatia007</a
+            >
+          </p>
+          <span
+            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+          >
+            <a
+              href="https://www.linkedin.com/in/neeraj-bhatia-17b5901a7/"
+              class="ml-3 text-gray-500 cursor-pointer"
+              target="_blank"
+            >
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
